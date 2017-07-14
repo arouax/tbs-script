@@ -19,5 +19,6 @@
     </script>
     <!-- End of custom Tiberis banner -->
 
-## Products info comes from catalogue.json, which can be generated on the server with GET requests
-## tiberis-banner.js - is the server-side js script file, any customizations to the banner are performed here
+### Products info comes from catalogue.json, which can be generated on the server with GET requests
+### tiberis-banner.js - is the server-side js script file, any customizations to the banner are performed here
+### Live demo at https://arouax.github.io/tbs-script/index.html

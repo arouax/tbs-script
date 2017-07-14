@@ -1,0 +1,271 @@
+﻿/*
+ Theme Name:   svarkaipayka.ru
+ Description:  Шаблон разработан для сайта http://svarkaipayka.ru/
+ Author:       MR.R
+ Author URI:   http://vk.com/id13210040
+*/
+
+.aligncenter{
+	display:block;
+	margin:5px auto;
+	text-align: center;
+}
+
+.alignright{
+	float:right;
+	margin:5px 0 20px 20px
+}
+
+.alignleft{
+	float:left;
+	margin:5px 20px 20px 0
+}
+
+.tabs-statia iframe{
+	width: 100%;
+}
+
+.slider {
+        width: 90%;
+        margin: 100px auto;
+    }
+
+.slick-slide {
+  padding: 0px 10px;
+}
+
+.slick-slide img {
+  max-width: 123px;
+  max-height: 173px;
+  border: 1px solid #0b2d53;
+  margin-left: -6px;
+  max-width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+
+.slider a {
+	color: #0b2d53;
+}
+
+.slider p {
+	text-align: center;
+  height: 35px;
+}
+
+.block-img-text a{
+	width: 123px;
+	height: 173px;
+	position: relative;
+}
+
+.block-img-text a:hover {
+	color: #d90000;
+	text-decoration: none;
+}
+
+.block-img-text a:hover img {
+	border: 1px solid #d90000;
+}
+
+.border-right-footer:last-child{
+	 border: none;
+}
+
+/* top menu */
+	
+.sub-menu   li:first-child{
+	width: 85%;
+	margin: 10px;
+	border-bottom: 1px solid #ccc;
+	
+}	
+.sub-menu   li:first-child:hover{
+	background: none;
+}
+.sub-menu   li:first-child a{
+	border-bottom: 1px solid #FF0000;
+	width: 75%;
+	position: relative;
+	top: 1px;
+	color: #0b2d53 !important;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+/* close top menu */
+
+.singl-img-after-title{float: right;
+border: 1px solid #1d3c5f;}
+
+.post-ratings{
+	 /*margin-top: 20px; */
+	text-align: center;
+	position: absolute;
+	 /*top: 4px;*/
+	left: 5px;
+   /* margin-left: 36%;*/
+}
+
+/* Table in posts */
+
+.tablebackg table tr:first-child, .tablebackg table thead tr th {
+	background: #0b2d53;
+	color: #fff;
+	text-align: center;
+}
+
+.tablebackg table tr:first-child td {
+	border-right: 1px solid #fff;
+}
+
+.tablebackg table tr:first-child td:last-child{
+	border-right: 1px solid #0b2d53;
+}
+/* Close table */
+
+/* Taxonomy in the sidebar */
+
+.tax-hide{
+	display: none;
+}
+.menu1 a{
+	color: #0b2d53;
+}
+.menu1 a:hover{
+	color: #d90000;
+}
+.tax-vis{
+	display: block;
+}
+
+.tax-sidebar, .post-yes, .post-no{
+	cursor: pointer;
+}
+
+.post-yes:hover, .post-no:hover{
+	text-decoration: underline;
+}
+
+/* And taxonomy in the sidebar */
+
+.reiting-statia > .post-ratings{
+	position: relative;
+	left: 0px;
+}
+
+.b-share_theme_counter{
+	position: relative;
+	left: 20px;
+}
+
+.hr-1-post{
+	bottom: -10px;
+}
+
+.novoe-svarka .post-ratings, .popular-svarka .post-ratings{margin-top: 5px; width: auto; left: 0}
+.ratings-new-posts-sidebar > .post-ratings,  .popular-new-posts-sidebar > .post-ratings{margin-top: 5px;}
+
+.content-show{cursor:pointer}
+
+.single-photo, .single-video{text-align:center;}
+.single-photo img{margin: 10px auto;}
+
+.go-top{cursor:pointer;}
+
+.search-company{
+    width: 217px;
+    font-size: 18px;
+    line-height: 16px;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    max-width: 100%;
+    background-size: 100% 100%;
+}
+
+.search-maps{
+	border: 1px solid #0b2d53;
+	float:left;
+	    overflow: hidden;
+	    -webkit-box-sizing: border-box;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+}
+
+.search-zagolovok h1{
+	color: #0b2d53;
+	font-size: 24px;
+	border-left: 1px solid #d90000;
+	background: #ececec;
+	padding: 10px;
+	margin-left: 330px;
+}
+
+.serch-description{
+	margin-left: 330px;
+}
+
+.podrobnoe-search a{
+	background: #0b2d53;
+	padding: 5px 15px;
+	color: #fff;
+	float: right;
+}
+
+.s-loader{
+	margin-left: 45%;
+}
+
+.r .post-ratings{
+	margin-left: -100px;
+}
+
+.rub-r{
+	margin-right: 200px;
+}
+
+.loadmore-img{
+	position: relative;
+	width: 25px;
+    left: 55px;
+    top: 6px;
+}
+
+.catalog-search-button{
+	background: none;
+	border: none;
+	top: 0;
+	right: 0;
+}
+
+.wp-caption-text{margin: 0px 10px 0px 0px;}
+
+.perelink-after-content .img-svarka .a-img-svarka:hover  {
+    border: 2px solid #0b2d53;
+    border-bottom: 2px solid #0b2d53;
+}
+
+.perelink-after-content .img-svarka .a-img-svarka:hover .svarka-img-opacity {
+    background: #1d3a5b;
+    opacity: 0.91;
+    color: #fff;
+}
+
+.perelink-after-content .img-svarka .a-img-svarka:hover .svarka-img-opacity p {
+    color: #fff;
+}
+.bredkramp{
+    margin-bottom: 19px;
+    margin-top: 5px;
+}
+.read-more-tax{
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-size: 15px;
+    display: block;
+}
+.text-podrazdel .read-more-tax:last-child{
+    margin-bottom: -21px;
+}
